@@ -2,7 +2,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as cors from 'cors';
-import {hostname} from "os"; 
 import * as process from "process";
 
 async function bootstrap() {
